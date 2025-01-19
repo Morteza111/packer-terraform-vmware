@@ -1,14 +1,7 @@
 # =================== #
 # Deploying VMware VM #
 # =================== #
-terraform {
-  required_providers {
-    vsphere = {
-      source  = "hashicorp/vsphere"
-      version = "~> 2.0"
-    }
-  }
-}
+
 
 # Connect to VMware vSphere vCenter
 provider "vsphere" {
